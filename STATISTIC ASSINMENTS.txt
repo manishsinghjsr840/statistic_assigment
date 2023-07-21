@@ -1,0 +1,118 @@
+ANS-1
+ 
+ To plot a histogram, we need to group the data into intervals, also called bins, and count the number of values that fall into each bin. Here's one possible way to group the given data:
+
+Bin	Count
+10-19	2
+20-29	2
+30-39	2
+40-49	2
+50-59	2
+80-89	1
+90-99	3
+To create the histogram, we can draw a bar for each bin with height equal to the count of values in that bin. Here's what the histogram looks
+
+
+ANS-2
+
+ To construct a confidence interval (CI) about the population mean with known standard deviation, we can use the following formula:
+
+CI = X̄ ± Zα/2 * (σ/√n)
+
+where X̄ is the sample mean, σ is the population standard deviation, n is the sample size, Zα/2 is the critical value from the standard normal distribution corresponding to the desired confidence level, and ± indicates the two-sided interval.
+
+Given the problem, we have:
+
+Population standard deviation (σ) = 100
+Sample mean (X̄) = 520
+Sample size (n) = 25
+Desired confidence level = 80%, which corresponds to a two-sided critical value of Zα/2 = 1.28 (from standard normal distribution tables)
+Now, we can plug these values into the formula to obtain the 80% CI:
+
+CI = 520 ± 1.28 * (100/√25)
+= 520 ± 1.28 * 20
+= [494.4, 545.6]
+
+Therefore, we can say with 80% confidence that the true population mean lies between 494.4 and 545.6
+
+
+
+
+ANS-3
+   
+   Null hypothesis: The percentage of citizens in city ABC that owns a vehicle is greater than 60%.
+Alternate hypothesis: The percentage of citizens in city ABC that owns a vehicle is 60% or less.
+
+To test this hypothesis, we can use a one-tailed Z-test. First, we calculate the sample proportion of vehicle owners:
+
+p̂ = 170/250 = 0.68
+
+Next, we calculate the standard error of the sample proportion:
+
+SE = sqrt((0.6 * 0.4) / 250) = 0.047
+
+We can now calculate the test statistic:
+
+Z = (p̂ - p) / SE = (0.68 - 0.6) / 0.047 = 1.70
+
+Using a Z-table or calculator, we find that the p-value for Z = 1.70 is 0.0446. Since the p-value is less than the 
+significance level of 0.10, we reject the null hypothesis and conclude that there is enough evidence to support the idea
+ that vehicle owner in ABC city is 60% or less.
+ 
+ 
+ 
+ 
+ ANS-4
+ 
+   To find the 99th percentile, we need to find the value below which 99% of the data falls.
+
+First, we need to calculate the number of values that represent 99% of the data. We have a total of 20 data points, so 99% of the data is:
+
+99/100 x 20 = 19.8 ≈ 20
+
+This means that we need to find the value that is greater than or equal to 20 of the ordered data points.
+
+The ordered data is:
+
+2, 2, 3, 4, 5, 5, 5, 6, 7, 8, 8, 8, 8, 8, 9, 9, 10, 11, 11, 12
+
+Since we need the 20th value, we need to take the 20th value in the ordered data, which is:
+
+10
+
+Therefore, the 99th percentile is 10.
+
+
+
+
+ANS-5
+
+  In a left-skewed distribution, the mean is less than the median, which is less than the mode. In a right-skewed distribution,
+  the mean is greater than the median, which is greater than the mode.
+
+Here's a graph that illustrates the relationship between the mean, median, and mode in left-skewed and right-skewed distributions:
+
+Left-skewed distribution:
+
+
+              ________
+           ___/
+        ___/
+     ___/
+    /
+   /__________________
+        Mode   Median   Mean
+		
+Right-skewed distribution:
+
+        ________
+            \___
+               \___
+                  \___
+                      \
+   __________________\_
+        Mean   Median   Mode
+In both cases, the mode is the peak of the distribution (the value that occurs most frequently), the median is the value that divides
+ the data into two equal halves, and the mean is the average of all the data points
+
+  
